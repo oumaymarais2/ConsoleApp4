@@ -28,7 +28,7 @@ namespace ConsoleApp4
             Console.Write("le tableau existant est  :\n ");
             for (i = 0; i < n; i++)
                 Console.Write("{0} ", Tab[i]);
-            //determination de la position de la valeur a inserer 
+         
             for (i = 0; i < n; i++)
                 if (insert < Tab[i])
                 {
