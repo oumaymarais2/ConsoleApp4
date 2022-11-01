@@ -42,7 +42,7 @@ namespace ConsoleApp4
 
             Tab[p] = insert;
 
-            Console.Write("\n\nApres l'insertion :\n ");
+            Console.Write("Apres l'insertion :\n ");
             for (i = 0; i <= n; i++)
                 Console.Write("{0} ", Tab[i]);
             Console.ReadLine();
